@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import '../Navbar/Navbar.css'; 
 
 const Navbar = () => {
@@ -26,6 +27,9 @@ const Navbar = () => {
                 <li className="icons">
                     <Link to="https://www.instagram.com/ephtones/" >
                         <FontAwesomeIcon icon={faInstagram} />
+                    </Link>
+                    <Link to ="https://www.youtube.com/@Ephtones">
+                    <FontAwesomeIcon icon = {faYoutube} />
                     </Link>
                     <Link to="https://facebook.com">
                         <FontAwesomeIcon icon={faFacebook} />
