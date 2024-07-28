@@ -1,0 +1,26 @@
+/* src/UnderlinedText.css */
+.underline-container {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .underline-container::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px; /* Spessore della sottolineatura */
+    bottom: 0;
+    left: 0;
+    background-color: #f95959; /* Colore della sottolineatura */
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 3s ease-out;
+  }
+  
+  .underline-container.animate::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  

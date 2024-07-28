@@ -1,0 +1,32 @@
+.about-title {
+    color:#e3e3e3 ;
+    margin: 25px;
+    padding: 1px;
+    margin-bottom: 1px;
+}
+
+.about-em{
+    color:#e3e3e3 ;
+  
+
+}
+p{
+    color:#e3e3e3 ;
+    margin: 25px;
+    padding: 1px;
+}
+.image1 {
+    border: 1px solid #e3e3e3 ;
+    border-radius: 70px   ;
+    justify-content: center;
+    justify-self: unset;
+    width: 50%;
+    margin: 5px;
+    margin-left: 25px;
+    display: inline-block;
+    align-items: center;
+
+}
+.about-bio2{
+ 
+}

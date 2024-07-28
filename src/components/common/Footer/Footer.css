@@ -1,0 +1,26 @@
+.footer {
+    color: #e3e3e3;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #455d7a;
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #f95959;
+}
+
+.footer-list {
+    padding: 0;
+    margin: 0;
+    background-color: #455d7a;
+    display: inline-block; /* Assicurati che la lista sia centrata */
+}
+.footer-list a,
+.footer-list h4,
+.footer-list li {
+    margin: 0;
+    padding: 0;
+    background-color: #455d7a;
+}

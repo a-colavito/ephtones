@@ -1,0 +1,36 @@
+/* src/OpeningPage.css */
+.opening-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e3e3e3;
+  }
+.main-title{
+    border: 2px solid 233142;
+    margin: 100px;
+    padding: 100px;
+    
+    color: #e3e3e3;
+    text-align: center;
+    text-justify: auto;
+    border-radius: 50px;
+
+}
+  
+  .clickable-box {
+    border: 2px solid 233142;
+    margin: 100px;
+    padding: 50px;
+    
+    color: #e3e3e3;
+    text-align: center;
+    text-justify: auto;
+    border-radius: 50px;
+  }
+  
+  .clickable-box:hover {
+    background-color: #f95959;
+    
+  }
+  
