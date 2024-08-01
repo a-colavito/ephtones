@@ -1,7 +1,5 @@
-// src/OpeningPage.js
 import React from 'react';
-import { Navigate, useNavigate } from 'react-router-dom';
-import './OpeningPage.css'; // per gli stili del riquadro
+import { useNavigate } from 'react-router-dom';
 
 const OpeningPage = () => {
   const navigate = useNavigate();
@@ -11,9 +9,12 @@ const OpeningPage = () => {
   };
 
   return (
-    <div className="opening-page">
-      <div className="clickable-box" onClick={handleClick}>
-      <h1 className='main-title'> EPHTONES </h1>
+    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+      <div
+        className="flex items-center justify-center w-80 h-80 bg-white rounded-lg shadow-lg cursor-pointer"
+        onClick={handleClick}
+      >
+        <h1 className="text-4xl font-bold text-center text-indigo-600">EPHTONES</h1>
       </div>
     </div>
   );
