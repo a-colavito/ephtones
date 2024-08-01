@@ -5,16 +5,16 @@ const OpeningPage = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate('/home'); // Cambia '/home' con il percorso della tua homepage
+    navigate('/home'); 
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex items-center justify-center min-h-screen  bg-slate-50">
       <div
         className="flex items-center justify-center w-80 h-80 bg-white rounded-lg shadow-lg cursor-pointer"
         onClick={handleClick}
       >
-        <h1 className="text-4xl font-bold text-center text-indigo-600">EPHTONES</h1>
+        <h1 className="text-4xl font-bold text-center text-red-700">EPHTONES</h1>
       </div>
     </div>
   );

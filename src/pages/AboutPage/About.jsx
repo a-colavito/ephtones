@@ -4,7 +4,7 @@ import image1 from '../../assets/images/what-does-a-music-producer-do.jpg';
 
 function About() {
   return (
-    <div className ="flex items-center justify-center min-h-screen bg-gray-200 p-4 ">
+    <div className ="flex items-center justify-center min-h-screen  bg-slate-50 p-4 ">
     <div className="container mx-auto p-2">
       <h1 className="text-4xl font-bold mb-4">
         Sound, <em className="text-dark"><UnderlinedText text="beautiful" /></em>

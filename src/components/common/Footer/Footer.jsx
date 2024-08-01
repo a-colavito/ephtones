@@ -2,12 +2,12 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className="bg-gray-700 text-white p-4">
+    <div className="bg-slate-50 border-t-2 border-red-700 text-dark p-4 ">
       <div className="flex flex-col items-center space-y-2">
         <h4 className="text-lg font-semibold">Contacts</h4>
         <ul className="space-y-1 text-center">
           <li>
-            <a href="mailto:ephtones@gmail.com" className="text-gray-300 hover:text-white">
+            <a href="mailto:ephtones@gmail.com" className="text-slate-950 hover:text-red-700">
               ephtones@gmail.com
             </a>
           </li>

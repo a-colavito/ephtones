@@ -3,7 +3,7 @@ import { ReactTyped } from "react-typed";
 
 const HomePage = () => {
     return (
-        <div className="flex items-center justify-center min-h-screen bg-gray-200">
+        <div className="flex items-center justify-center min-h-screen bg-slate-50">
             <h1 className="text-5xl font-extrabold text-center text-red-700">
                 <ReactTyped 
                     strings={["EPHTONES"]}
