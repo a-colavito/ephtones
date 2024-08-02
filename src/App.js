@@ -7,15 +7,13 @@ import About from './pages/AboutPage/About';
 
 const App = () => {
     return (
-        <div className="flex flex-col min-h-screen">
+        <div >
             <Router>
-                <div className="flex-grow">
                     <Routes>
                         <Route path="/" element={<OpeningPage />} /> 
                         <Route path="/home" element={<Layout><HomePage /></Layout>}></Route>
                         <Route path="/about" element={<Layout><About /></Layout>}></Route>
                     </Routes>
-                </div>
             </Router>
         </div>
     );

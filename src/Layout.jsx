@@ -2,13 +2,18 @@ import React from 'react';
 import Navbar from './components/common/Navbar/Navbar';
 import Footer from './components/common/Footer/Footer';
 
+
 const Layout = ({ children }) => {
   return (
-    <div className="flex flex-col min-h-screen">
+   
+    <div>
+    
       <Navbar />
-      <main className="flex-1">{children}</main>
+      <main className="flex items-center justify-center min-h-screen bg-slate-50">{children}</main>
       <Footer />
     </div>
+     
+   
   );
 };
 
