@@ -1,10 +1,10 @@
 import React from 'react';
-import { ReactTyped } from "react-typed";
 
 const HomePage = () => {
     return (
-    <div>
-            ciao.
+
+        <div className='w-full h-full flex items-center justify-center ' > {/* qui mettiamo item principali al centro */}
+            
         </div>
     );
 }
