@@ -7,7 +7,7 @@ import Switcher from "../../../Switcher.js";
 
 const Navbar = () => {
     return (
-        <nav className="bg-slate-50 p-4 dark:bg-blue-950">
+        <nav className="flex-grow bg-slate-50 p-4 dark:bg-blue-950">
             <ul className="flex justify-between items-center">
                 <li className="flex space-x-4">
               
@@ -22,7 +22,7 @@ const Navbar = () => {
                 </li>
                
                 <li className="flex space-x-4">
-                    <a href="https://www.instagram.com/ephtones/" className="text-xl text-dark hover:text-purple-700 dark:text-slate-50 dark:hover:text-purple-700">
+                    <a href="https://www.instagram.com/ephtones/" className="text-xl text-dark hover:text-purple-700 dark:text-slate-50 dark:hover:text-purple-400">
                         <FontAwesomeIcon icon={faInstagram} />
                     </a>
                     <a href="https://www.youtube.com/@Ephtones" className="text-xl text-dark hover:text-red-600 dark:text-slate-50 dark:hover:text-red-600">
@@ -34,7 +34,7 @@ const Navbar = () => {
                     <a href="https://www.beatstars.com/ephtones" className="text-xl text-dark hover:text-green-600 dark:text-slate-50 dark:hover:text-green-600">
                         <FontAwesomeIcon icon={faSpotify} />
                     </a>
-                    <a href="https://facebook.com" className="text-xl text-dark hover:text-blue-600 dark:text-slate-50 dark:hover:text-blue-600">
+                    <a href="https://facebook.com" className="text-xl text-dark hover:text-blue-600 dark:text-slate-50 dark:hover:text-blue-500">
                         <FontAwesomeIcon icon={faFacebook} />
                     </a>
                    
