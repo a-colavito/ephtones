@@ -37,9 +37,7 @@ const Navbar = () => {
                     <a href="https://facebook.com" className="text-xl text-dark hover:text-blue-600 dark:text-slate-50 dark:hover:text-blue-600">
                         <FontAwesomeIcon icon={faFacebook} />
                     </a>
-                    <a>
-                        
-                    </a>
+                   
                    
                 </li>
                 
