@@ -13,6 +13,7 @@ const Navbar = () => {
                     <Link to="/about" className="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-violet-100 hover:text-slate-9001">ABOUT</Link>
                     <Link to="/store" className="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-violet-100 hover:text-slate-9001">STORE</Link>
                     <Link to="/events" className="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-violet-100 hover:text-slate-9001">EVENTS</Link>
+                    <Link to="/contacts" className="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-violet-100 hover:text-slate-9001">CONTACTS</Link>
                 </li>
                 <li className="flex space-x-4">
                     <a href="https://www.instagram.com/ephtones/" className="text-xl text-dark hover:text-purple-700">
