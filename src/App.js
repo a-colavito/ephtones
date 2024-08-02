@@ -8,8 +8,13 @@ import Contacts from './pages/Contacts/Contacts';
 import Events from './pages/Events/Events';
 import Store from './pages/Store/Store';
 
+
 const App = () => {
+ 
+    
     return (
+   
+      
         <div >
             <Router>
                     <Routes>
@@ -22,6 +27,8 @@ const App = () => {
                     </Routes>
             </Router>
         </div>
+        
+
     );
 }
 
