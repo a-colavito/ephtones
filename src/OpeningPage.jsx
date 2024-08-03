@@ -24,7 +24,7 @@ const OpeningPage = () => {
         <h1 className="text-slate-50 text-4xl md:text-6xl font-bold cursor-pointer" onClick={handleClick}>
         <ReactTyped 
                     strings={["EPHTONES."]}
-                    typeSpeed={300}
+                    typeSpeed={175}
                     backSpeed={20}
                     cursorChar=''
                     showCursor={true}
